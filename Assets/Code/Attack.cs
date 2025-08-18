@@ -30,5 +30,6 @@ public class Attack : MonoBehaviour
         double doubleBaseDamage = double.Parse(BaseDamage);
         double doubleMultiplier = double.Parse(Multiplier);
         Damage = (doubleBaseDamage * doubleMultiplier).ToString();
+        Debug.LogWarning(message: $"Player {Damage:##.##} damage");
     }
 }
