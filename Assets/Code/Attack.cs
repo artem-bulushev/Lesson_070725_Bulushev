@@ -1,18 +1,17 @@
 using UnityEngine;
 
-
 namespace Code
 {
     public class Attack : MonoBehaviour
     {
+        public string BaseDamage;
+        public string Multiplier;
+        public string Damage;
+
         private void OnValidate()
         {
             ResultDamage();
         }
-
-        public string BaseDamage;
-        public string Multiplier;
-        public string Damage;
 
         private void ResultDamage()
         {
@@ -23,4 +22,3 @@ namespace Code
         }
     }
 }
-    
