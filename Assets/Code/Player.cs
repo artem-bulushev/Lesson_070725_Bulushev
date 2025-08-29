@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Code
@@ -16,6 +14,5 @@ namespace Code
         {
             return (int)(a + b);
         }
-
     }
 }
